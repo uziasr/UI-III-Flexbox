@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
 }
 
 html, body {
@@ -64,3 +65,177 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+header{
+	position: relative;
+	display: block;	
+}
+
+/* nav{
+	position:relative;
+	background-color: #01a2ff;
+} */
+
+/* header nav a{
+	box-sizing: border-box;
+	text-decoration: none;
+	color:#D3D3D3;
+	display:inline-block;
+	margin: 20px 5px 0px 5px;
+	width: 9%;
+	padding: 10px;
+	font-weight: bold;
+	border: 1px solid black;
+	text-align:center;
+} */
+
+header nav {
+	display:flex;
+	justify-content: space-between;
+	margin: 0 0 50px 0;
+	
+}
+
+.nav-links{
+	display:flex;
+	width: 80%;
+	justify-content: space-evenly;
+	
+}
+.nav-links a{
+	color:lightgray;
+	text-decoration: none;
+}
+
+/* header nav a:hover{
+	background-color: black;
+} */
+
+/* header complete! */
+
+.home{
+	padding-bottom: 100px;
+	border-bottom: 2px solid black;
+}
+
+.home div{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+
+.home div.titles{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+
+	
+}
+
+/* styling the individual elements in the home section */
+.big-title{
+	font-size: 80px;
+}
+
+.titles a{
+	padding: 10px 65px;
+}
+
+
+
+.first-content{
+	display:flex;
+	justify-content:center;
+}
+
+
+
+/* Styling Innovation of demand/home */
+
+.home{
+	margin:40px 0;
+	/* border-bottom:2px solid black; */
+} 
+
+
+.get-button{
+	color:black;
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 2px 1px;
+}
+.get-button:hover{
+	background-color:blue;
+}
+
+.split-title{
+	position: relative;
+	left:0px;
+}
+
+.first-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+div.first p{
+	width:85%;
+	margin: 0 0 45px 0;	
+}
+
+
+
+/* styling the middle */
+.middle-img{
+	width:100%;
+}
+
+div.second-content{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:40px 0;
+}
+div.second p{
+	width: 90%;
+
+}
+
+section.info-content{
+	border-bottom: 2px solid black;
+}
+
+h2{
+	font-size: 20px;
+}
+
+/* styling the footer */
+
+
+.contact-us{
+	margin: 35px 0 10px 0;
+}
+.copy{
+	/* copryright */
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+body{
+	/* so nothing is on the edge */
+	margin:60px;
+}
+
+.email{
+	text-decoration: none;
+	
+}

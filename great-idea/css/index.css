@@ -315,25 +315,32 @@ ul li{
 .features-body div{
 	display:flex;
 	width:100%;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
-	font-size: 50px;
+	font-size: 100px;
 	padding-bottom: 70px;	
 	border-bottom: 2px solid black;
 	
-
 }
 .features-body div img{
 	width:40%;
-	border-radius: 4px;
+	border-radius: 20px;
+}
+.feature-info-stack{
+	display:flex;
+	justify-content: center;
 }
 
+
 .feature-info-wrapper{
+	width:85%;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-evenly;
 	height:100%;
-	margin:100px;
+	padding:50px 0 50px 0;
+	justify-content: space-between;
+	align-items: center;
 	
 }
 
@@ -347,21 +354,26 @@ ul li{
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
+
 }
 .feature-job{
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 .feature-text-box{
+	margin:100px 0;
 	width:50%;
 	border: 1px solid black;
+	padding: 6% 2%;
+	background-color: beige;
 }
 
-
-
-
-.feature-support h1{
-
+.feature-text-box h2{
+	font-size: 25px;
+}
+.services-footer{
+	border-top: 2px solid black;
 }

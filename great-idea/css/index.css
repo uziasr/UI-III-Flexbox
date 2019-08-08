@@ -304,3 +304,64 @@ ul {
 ul li{
 	padding:10px;
 }
+
+.features-body{
+	display:flex;
+	justify-content: center;
+	margin:60px 0 0 0 ;
+	
+}
+
+.features-body div{
+	display:flex;
+	width:100%;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 50px;
+	padding-bottom: 70px;	
+	border-bottom: 2px solid black;
+	
+
+}
+.features-body div img{
+	width:40%;
+	border-radius: 4px;
+}
+
+.feature-info-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+	height:100%;
+	margin:100px;
+	
+}
+
+.feature-support{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feature-advising{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.feature-job{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feature-text-box{
+	width:50%;
+	border: 1px solid black;
+}
+
+
+
+
+.feature-support h1{
+
+}
